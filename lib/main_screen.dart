@@ -36,6 +36,7 @@ class _MainScreenState extends State<MainScreen> {
                     border: OutlineInputBorder(),
                     hintText: 'Enter a number',
                   ),
+                  keyboardType: TextInputType.number,
 
                   onChanged: (newValue){
                     setState(() {
